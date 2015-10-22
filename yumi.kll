@@ -1,0 +1,28 @@
+Name = Infini-yumi;
+Version = 0.1;
+Author = "Ayumi Yu 2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-08-21;
+
+# Remap MD1 -> what I want
+
+# Number Row
+U"Esc" : U"Backtick";
+U"Backslash" : U"Insert";
+U"Backtick" : U"Delete";
+
+# Top Row
+
+# Middle Row
+U"Ctrl" : U"Esc";
+U"RShift" : U"Up";
+U"Function1" : U"Backslash";
+
+# Bottom Row
+U"Function2" : U"Ctrl";
+U"RGui" : U"Function1";
+U"RAlt" : U"Left";
+U"Function3" : U"Down";
+U"Function4" : U"Right";
