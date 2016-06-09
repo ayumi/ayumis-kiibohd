@@ -15,4 +15,20 @@ cmake -DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap \          
   -DDefaultMap="yumi stdFuncMap" -DPartialMaps="yumi-overlay" ../
 ```
 6. Build with `make`
-7. Push keyboard flashy button then run `./load`.
+7. Push keyboard flashy button then run `sudo dfu-util -D kiibohd.dfu.bin`.
+
+### Windows
+
+Configure cmake with an additional KLL layer, yumi-windows:
+
+```sh
+cmake -DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap \                                          11:42:05
+  -DOutputModule=pjrcUSB -DDebugModule=full -DBaseMap=defaultMap \
+  -DDefaultMap="yumi-windows yumi stdFuncMap" -DPartialMaps="yumi-overlay" ../
+```
+
+### Rebuilding
+
+kiibohd gets updated a lot, so it's a good idea to upgrade the firmware periodically.
+
+Create a new directory and repeat instructions 5-7.
