@@ -1,0 +1,19 @@
+Name = Infini-yumi;
+Version = 0.1;
+Author = "Ayumi Yu 2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-11-01;
+
+# Modify *nix version windows key
+
+# Number Row
+
+# Top Row
+
+# Middle Row
+
+# Bottom Row
+U"LGui" : U"LAlt";
+U"LAlt" : U"LGui";
