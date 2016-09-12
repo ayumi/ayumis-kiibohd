@@ -10,7 +10,7 @@ Keyboard: [Infinity 60%](https://www.massdrop.com/buy/infinity-keyboard-kit/?mod
 4. In kiibohd root directory, `mkdir build-yumi && cd build-yumi`.
 5. Configure cmake:
 ```sh
-cmake -DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap \                                          11:42:05
+cmake -DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap \
   -DOutputModule=pjrcUSB -DDebugModule=full -DBaseMap=defaultMap \
   -DDefaultMap="yumi stdFuncMap" -DPartialMaps="yumi-overlay" ../
 ```
@@ -22,7 +22,7 @@ cmake -DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap \          
 Configure cmake with an additional KLL layer, yumi-windows:
 
 ```sh
-cmake -DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap \                                          11:42:05
+cmake -DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap \
   -DOutputModule=pjrcUSB -DDebugModule=full -DBaseMap=defaultMap \
   -DDefaultMap="yumi-windows yumi stdFuncMap" -DPartialMaps="yumi-overlay" ../
 ```
